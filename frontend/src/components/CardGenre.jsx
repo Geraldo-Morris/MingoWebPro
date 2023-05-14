@@ -12,7 +12,7 @@ const CardGenre = ({ nama }) => {
       {/* action */}
       <div className="mt-[90px]">
         <div className="mx-auto w-max relative">
-          <a href="https://youtube.com">
+          <a href="/Action">
             <img className="" src={action} alt="" />
             <img
               className="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
@@ -28,51 +28,59 @@ const CardGenre = ({ nama }) => {
 
       {/* adventure */}
       <div class="mx-auto w-max relative my-[90px]">
-        <img class="" src={adventure} alt="" />
-        <img
-          class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
-          src={shadow}
-          alt=""
-        />
+        <a href="/Adventure">
+          <img class="" src={adventure} alt="" />
+          <img
+            class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
+            src={shadow}
+            alt=""
+          />
+        </a>
         <h1 class="text-white text-[40px] font-bold absolute top-0 py-[140px] pl-[80px]">
           ADVENTURE
         </h1>
       </div>
 
-      {/* fighting */}
+      {/* fihgting */}
       <div class="mx-auto w-max relative">
-        <img class="" src={fighting} alt="" />
-        <img
-          class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
-          src={shadow}
-          alt=""
-        />
+        <a href="/Fighting">
+          <img class="" src={fighting} alt="" />
+          <img
+            class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
+            src={shadow}
+            alt=""
+          />
+        </a>
         <h1 class="text-white text-[40px] font-bold absolute top-0 py-[140px] pl-[80px]">
           FIGHTING
         </h1>
       </div>
 
-      {/* fighting */}
+      {/* fps */}
       <div class="mx-auto w-max relative my-[90px]">
-        <img class="" src={fps} alt="" />
-        <img
-          class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
-          src={shadow}
-          alt=""
-        />
+        <a href="/Fps">
+          <img class="" src={fps} alt="" />
+          <img
+            class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
+            src={shadow}
+            alt=""
+          />
+        </a>
         <h1 class="text-white text-[40px] font-bold absolute top-0 py-[140px] pl-[80px]">
           First Person Shooter
         </h1>
       </div>
 
-      {/* fighting */}
+      {/* rpg */}
       <div class="mx-auto w-max relative">
-        <img class="" src={rpg} alt="" />
-        <img
-          class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
-          src={shadow}
-          alt=""
-        />
+        <a href="/Rpg">
+          <img class="" src={rpg} alt="" />
+          <img
+            class="top-0 absolute opacity-100 hover:opacity-50 transition-opacity duration-300"
+            src={shadow}
+            alt=""
+          />
+        </a>
         <h1 class="text-white text-[40px] font-bold absolute top-0 py-[140px] pl-[80px]">
           Role Playing Games
         </h1>

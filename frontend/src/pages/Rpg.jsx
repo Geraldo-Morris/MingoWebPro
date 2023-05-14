@@ -55,7 +55,7 @@ const Rpg = () => {
                 </div>
               </div>
             </a>
-            <a href="/ResidentEvil4">
+            <a href="/TalesofArise">
               <div className="relative w-max mt-[50px]">
                 <img
                   className="brightness-100 w-[300px] h-[300px]"
@@ -69,7 +69,7 @@ const Rpg = () => {
                   alt=""
                 />
                 <div className="text-white absolute bottom-0 mb-[20px] ml-[17px]">
-                  <h1 className="text-[28px] font-medium">Resident Evil 4</h1>
+                  <h1 className="text-[28px] font-medium">Tales Of Arise</h1>
                 </div>
               </div>
             </a>

@@ -20,7 +20,12 @@ const ExplorePage = () => {
           <h1 className="text-[20px] font-medium my-[15px]">April 12th 2023</h1>
           <a href="">
             <div className="bg-white text-black text-center py-[10px] px-[30px] rounded-[5px] ">
-              <h1>Access here</h1>
+              <a
+                href="https://store.steampowered.com/app/1527950/Wartales/"
+                target="_blank"
+              >
+                <h1>Access here</h1>
+              </a>
             </div>
           </a>
         </div>
