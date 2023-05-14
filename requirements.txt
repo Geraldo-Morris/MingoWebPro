@@ -1,0 +1,13 @@
+Pada Backend:
+Nyalakan XAMPP
+tambah terminal baru dan pilih git bash 
+"cd backend" diterminal
+"npm i"
+karena saya pakai nodemon jadi install nodemon terlebih dahulu:
+"npm install -g nodemon"
+setelah itu "nodemon index" untuk menjalankan Backendnya
+
+Pada Frontend:
+"cd frontend" diterminal
+"npm i"
+"npm start"
